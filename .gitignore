@@ -1,2 +1,5 @@
 # git ignore vagrant directory
 .vagrant
+
+# git ignore svn environment
+polaris
