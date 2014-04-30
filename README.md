@@ -1,7 +1,7 @@
 AslPhpEnv
 =========
 
-PHP Enviroment in Asl Local Only
+PHP Environment in Asl Local Only
 
 ## 用意するもの
 
