@@ -12,6 +12,12 @@ service "iptables" do
   action [:stop, :disable]
 end
 
+#update apt-get
+execute "apt_update" do
+ command "apt-get update"
+ action :run
+end
+
 #install apache php
 %w(apache2 php5 libapache2-mod-php5 php5-mcrypt).each do |pkg|
   package pkg do
